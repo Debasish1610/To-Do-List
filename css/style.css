@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+    background-color:  rgba(114, 151, 55, 0.9);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+  color: rgb(228, 222, 222);
+  font-size: 2.5rem;
+  margin-left: 25%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.history-list{
+  margin-left: 25%;
+}
+
+.history-item{
+  background-color: white;
+  margin: 4px;
+  padding-left: 3px;
+  max-width: 60vh;
+}
+
+.mainHeader,
+.form {
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input,
+.form button{
+    font-size: 1.2rem;
+    border: none;
+    padding: 0.5rem;
+    background-color: white;
+    outline: none;
+    margin: 2px;
+}
+
+.form button{
+  background-color: rgba(114, 151, 55, 0.9);
+  color: white;
+}
+
+.form button:hover{
+  cursor: pointer;
+}
+
+#task-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.task-item{
+  padding: 0px 0px 0px 4px;
+  min-width: 30%;
+  margin: 0.2rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.delete-task{
+  color: rgb(211, 13, 13);
+  border: none;
+  background-color:  rgba(16, 134, 5, 0.9);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  outline: none;
+  border-radius: 0px 2px 2px 0px;
+}
+
+
